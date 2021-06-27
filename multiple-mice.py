@@ -26,7 +26,6 @@ def run():
         print('exists 3')
         thread3 = Thread(target = mouse, args = ('/dev/input/mouse3', "m3"))
         thread3.start()
-    print("threads finished...exiting")
 
 def mouse(path, name):
     print(path, name)
