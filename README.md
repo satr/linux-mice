@@ -1,5 +1,5 @@
 # Catch events from multiple mice on Linux by Python
-It might be useful for controlling something in Linux or hardware, connected to linux PC (e.g. Raspberry Pi), using internal mouse buttons, wheel and optical sensor. It will be still only one mouse cursor on the screen. To have multiple mouse cursors - try [multipointer](https://wiki.archlinux.org/title/Multi-pointer_X). It works both in GUI and in console-only modes. The program reads from files `mouse*` in the folder `/dev/input`.
+It might be useful for controlling something in Linux or hardware, connected to linux PC (e.g. Raspberry Pi), using internal mouse buttons, wheel and optical sensor. It will be still only one mouse cursor on the screen. To have multiple mouse cursors - try [Multi-pointer X](https://wiki.archlinux.org/title/Multi-pointer_X). It works both in GUI and in console-only modes. The program reads from files `mouse*` in the folder `/dev/input`.
 
 This is an example, when up to four mice connected to [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/) via [USB HUB HAT](https://www.waveshare.com/usb-hub-hat.htm) and extra USB-hub. In this case connecting WiFi adapter to the USB HUB HAT hangs the system - it's recommened to connect it to extra USB-hub for stubility.
 
